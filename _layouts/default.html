@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jekyll Website</title>
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+	<h1>Jekyll website</h1>
+	{% include nav.html navclass='nav-top' %}
+</header>
+
+{{content}}
+
+<footer>
+	<p>This is a test website</p>
+	{% include nav.html navclass='nav-bottom' %}
+</footer>
+
+</body>
+</html>

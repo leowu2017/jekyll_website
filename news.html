@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: news
 ---
 
-<h1>Hello</h1>
+<h1>News</h1>
 
 <ul>
-	{% for news in site.categories.discovery limit:2 %}
+	{% for news in site.categories.news %}
 	<li>
 		<a href="">{{news.title}}</a>
 		<p>{{news.meta}}</p>
