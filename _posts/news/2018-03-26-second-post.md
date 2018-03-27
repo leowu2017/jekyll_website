@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: Second Post
 meta: second post
 category: news

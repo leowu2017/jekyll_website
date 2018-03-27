@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: First Post
 meta: first post
 category: news
