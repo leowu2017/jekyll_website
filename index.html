@@ -4,6 +4,12 @@ layout: default
 
 <h1>Hello</h1>
 
+<ol>
+	{% for data in site.data.news_data %}
+	<li>{{data.title}} {{data.content | markdownify}}</li>
+	{% endfor %}
+</ol>
+
 <ul>
 	{% for news in site.categories.discovery limit:2 %}
 	<li>

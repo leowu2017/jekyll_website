@@ -1,0 +1,11 @@
+- title: Info 1
+  folder: info1
+  content: '**content 1**'
+
+- title: Info 2
+  folder: info2
+  content: '**content 2**'
+
+- title: Info 3
+  folder: info3
+  content: '**content 3**'
